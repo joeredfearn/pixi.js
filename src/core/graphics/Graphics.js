@@ -807,6 +807,8 @@ Graphics.prototype.getLocalBounds = function ()
     }
 
     this._currentBounds = this._localBounds.local.getBounds();
+
+    return this._currentBounds;
 };
 
 /**
